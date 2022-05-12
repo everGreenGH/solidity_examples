@@ -20,11 +20,9 @@ contract SafeMath {
     /*
         실제 SafeMath 라이브러리는 internal 접근제어자를 사용하지만, 우리는 테스트를 위하여 public 접근제어자를 사용합니다.
     */
-    function safeAdd(uint8 x, uint8 y) public pure returns (uint8) {
-        
-        uint8 result = x + y;
-        require(result >= x, "Error: 덧셈 시 overflow 발생");
-        return result;
+    function safeAdd(uint8 x, uint8 y) public pure returns (uint8) {      
+        require((x + y) >= x, "Error: 덧셈 시 overflow 발생");
+        return x + y;
     }
 
     function safeSub(uint8 x, uint8 y) public pure returns (uint8) {
@@ -45,7 +43,7 @@ contract SafeMath {
         
         // Overflow/underflow가 발생하지 않는 나눗셈 함수(safeDiv)를 작성하세요.
         // 여기에 코드를 작성하세요.
-
+        
     }
 
 }

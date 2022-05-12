@@ -29,7 +29,7 @@ contract AdvancedMath {
             가장 유명한 DEX인 Uniswap에서도 Babylonian Method를 통하여 제곱근을 계산하는 라이브러리를 사용합니다. 
             Babylonian Method를 사용하여, 주어진 정수 x에 대한 근사 제곱근(y)을 반환하는 함수를 구현하세요.
             
-            알고리즘 참고: (https://s-realstory.tistory.com/17)
+            알고리즘 참고: (https://suhak.tistory.com/228)
         */
 
         // 여기에 코드를 작성하세요.
