@@ -21,8 +21,8 @@
   + Q12) 올바른 Call의 사용
   + Q13) 재진입 공격(1)
   + Q14) 재진입 공격(2) (예정)
-  + Q15) Mutex (예정)
-  + Q16) Overflow/Underflow 취약성 (예정)
+  + Q15) Mutex
+  + Q16) Overflow/Underflow 취약성
   + Q17) 서비스 거부 공격 (예정)
 
 * Oracle (예정)
