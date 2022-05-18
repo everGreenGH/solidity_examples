@@ -23,6 +23,6 @@
   + Q14) 재진입 공격(2) (예정)
   + Q15) Mutex
   + Q16) Overflow/Underflow 취약성
-  + Q17) 서비스 거부 공격 (예정)
+  + Q17) 예상하지 못한 Ether 전송
 
 * Oracle (예정)
