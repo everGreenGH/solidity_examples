@@ -15,7 +15,7 @@
   + Q9) Merkle Tree 구현하기
   + Q10) CPMM swap 구현하기
 
-* Smart Contract Basic
+* Smart Contract Security
 
   + Q11) Fallback과 Receive
   + Q12) 올바른 Call의 사용
@@ -24,5 +24,8 @@
   + Q15) Mutex
   + Q16) Overflow/Underflow 취약성
   + Q17) 예상하지 못한 Ether 전송
+  + Q18) 안전하지 않은 Random (예정)
+  + Q19) tx.origin 인증 취약성
+  
 
 * Oracle (예정)
